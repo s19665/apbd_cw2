@@ -6,13 +6,13 @@ using System.Xml.Serialization;
 namespace cw2
 {
     [Serializable]
-    class Student
+    public class Student
     {
         [XmlElement(ElementName = "fname")]
         public string FirstName { get; set; }
         [XmlElement(ElementName = "lname")]
         public string SecondtName { get; set; }
-        [XmlElement(ElementName = "ename")]
+        [XmlElement(ElementName = "email")]
         public string Email { get; set; }
         [XmlElement(ElementName = "brithdate")]
         public DateTime Birthdate { get; set; }

@@ -6,7 +6,7 @@ using System.Xml.Serialization;
 namespace cw2
 {
     [Serializable]
-    class Studies
+    public class Studies
     {
         [XmlElement(ElementName = "name")]
         public string StudiesName { get; set; }

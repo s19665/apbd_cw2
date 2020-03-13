@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "cw2": {
+      "commandName": "Project",
+      "commandLineArgs": "E:\\Studia\\APBD\\apbd_cw2\\cw2\\dane.csv result.xml xml"
+    }
+  }
+}
